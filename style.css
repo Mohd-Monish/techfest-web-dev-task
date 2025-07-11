@@ -1,0 +1,119 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      background: linear-gradient(90deg, #001f3f, #003366);
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 80px 30px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #about {
+      background: #e0f7fa;
+    }
+
+    #services {
+      background: #d1f2eb;
+    }
+
+    #team {
+      background: #fef9e7;
+    }
+
+    #contact {
+      background: #fdebd0;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: #003366;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0059b3;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      p {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+    }
